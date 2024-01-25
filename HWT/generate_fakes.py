@@ -315,13 +315,13 @@ if __name__ == '__main__':
 
 
     out_put_file = "./saved_images/{}/TestSet/".format(model_name)
-    style_file = "/home/WeiHongxi/Node95/Ym/data/words_wid/"
+    style_file = "your file"
 
 
     for iwid in test_wid:
 
         # wid
-        text_path = "/home/WeiHongxi/Node95/Ym/Project_20230709_VATr/CommData/eachWidWords/{}_words.lst".format(iwid)
+        text_path = "your path".format(iwid)
         if text_path is not None:
             with open(text_path, 'r') as f:
                 text_lines = f.read()
